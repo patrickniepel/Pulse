@@ -1,0 +1,32 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "onboarding_action_button_text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jetzt loslegen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Let’s go"
+          }
+        }
+      }
+    },
+    "Settings" : {
+
+    },
+    "Timer" : {
+
+    },
+    "Welcome to Pulse" : {
+
+    }
+  },
+  "version" : "1.1"
+}

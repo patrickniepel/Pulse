@@ -1,0 +1,4 @@
+options:
+  xcodeprojPath: "*.xcodeproj"
+  prefix: Licenses
+  singlePage: true
