@@ -11,7 +11,7 @@ struct ActionButton: View {
     let text: LocalizedStringKey
     let action: () -> Void
 
-    private let height: CGFloat = 44
+    private let height: CGFloat = 54
 
     var body: some View {
         Button {
@@ -24,7 +24,7 @@ struct ActionButton: View {
         }
         .frame(maxWidth: .infinity, minHeight: height)
         .background(Color.accent)
-        .cornerRadius(8)
+        .cornerRadius(16)
     }
 }
 

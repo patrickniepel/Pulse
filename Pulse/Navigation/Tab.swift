@@ -27,10 +27,10 @@ enum Tab: Identifiable, CaseIterable {
     var image: Image {
         switch self {
         case .timer:
-            Image(systemName: "timer.circle").renderingMode(.template)
+            Image.timerIcon
 
         case .settings:
-            Image(systemName: "gearshape").renderingMode(.template)
+            Image.settingsIcon
         }
     }
 }

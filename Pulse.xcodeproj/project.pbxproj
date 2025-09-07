@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		A31DD9A12E6C501600EEB11C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31DD99E2E6C501600EEB11C /* ContentView.swift */; };
-		A31DD9A22E6C501600EEB11C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31DD99F2E6C501600EEB11C /* Item.swift */; };
 		A31DD9A32E6C501600EEB11C /* PulseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31DD9A02E6C501600EEB11C /* PulseApp.swift */; };
 		A31DD9A42E6C501600EEB11C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A31DD99D2E6C501600EEB11C /* Assets.xcassets */; };
 		A31DD9AF2E6C531000EEB11C /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = A31DD9AE2E6C531000EEB11C /* Localizable.xcstrings */; };
+		A3553BD92E6D7AF50064B757 /* Image+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3553BD82E6D7AF50064B757 /* Image+Extension.swift */; };
 		A3F81FA52E6C5893007F6816 /* RswiftLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = A3F81FA42E6C5893007F6816 /* RswiftLibrary */; };
 		A3F81FDB2E6C5FA3007F6816 /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F81FDA2E6C5FA3007F6816 /* UserDefaults+Extension.swift */; };
 		A3F81FDE2E6C6067007F6816 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F81FDD2E6C6067007F6816 /* View+Extension.swift */; };
@@ -27,11 +27,11 @@
 /* Begin PBXFileReference section */
 		A31DD99D2E6C501600EEB11C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A31DD99E2E6C501600EEB11C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A31DD99F2E6C501600EEB11C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		A31DD9A02E6C501600EEB11C /* PulseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseApp.swift; sourceTree = "<group>"; };
 		A31DD9AB2E6C526300EEB11C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A31DD9AE2E6C531000EEB11C /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		A342E4672E6C4E2F00195F47 /* Pulse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pulse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3553BD82E6D7AF50064B757 /* Image+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extension.swift"; sourceTree = "<group>"; };
 		A3F81FDA2E6C5FA3007F6816 /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
 		A3F81FDD2E6C6067007F6816 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		A3F81FF52E6C6182007F6816 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
@@ -84,7 +84,6 @@
 				A3F81FE62E6C60BB007F6816 /* Settings */,
 				A3F81FFC2E6C626E007F6816 /* Timer */,
 				A3F81FEA2E6C60D5007F6816 /* Utils */,
-				A31DD99F2E6C501600EEB11C /* Item.swift */,
 			);
 			path = Pulse;
 			sourceTree = "<group>";
@@ -115,6 +114,7 @@
 		A3F81FD62E6C5F94007F6816 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				A3553BD82E6D7AF50064B757 /* Image+Extension.swift */,
 				A3F820182E6C6990007F6816 /* String+Extension.swift */,
 				A3F81FDA2E6C5FA3007F6816 /* UserDefaults+Extension.swift */,
 				A3F81FDD2E6C6067007F6816 /* View+Extension.swift */,
@@ -255,7 +255,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A31DD9A12E6C501600EEB11C /* ContentView.swift in Sources */,
-				A31DD9A22E6C501600EEB11C /* Item.swift in Sources */,
 				A3F81FDE2E6C6067007F6816 /* View+Extension.swift in Sources */,
 				A3F820112E6C65F0007F6816 /* ActionButton.swift in Sources */,
 				A3F820192E6C6990007F6816 /* String+Extension.swift in Sources */,
@@ -266,6 +265,7 @@
 				A31DD9A32E6C501600EEB11C /* PulseApp.swift in Sources */,
 				A3F820012E6C6276007F6816 /* TimerView.swift in Sources */,
 				A3F81FF92E6C6192007F6816 /* Tab.swift in Sources */,
+				A3553BD92E6D7AF50064B757 /* Image+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

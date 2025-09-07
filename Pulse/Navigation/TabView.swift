@@ -8,11 +8,7 @@
 import SwiftUI
 
 struct TabView: View {
-    @Binding private var selectedTab: Tab
-
-    init(selectedTab: Binding<Tab>) {
-        self._selectedTab = selectedTab
-    }
+    @State private var selectedTab: Tab = .timer
 
     var body: some View {
         SwiftUI.TabView(selection: $selectedTab) {
@@ -25,6 +21,5 @@ struct TabView: View {
                     }
             }
         }
-        .accentColor(.accent)
     }
 }

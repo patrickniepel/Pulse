@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var selectedTab: Tab = .timer
     @AppStorage(UserDefaults.Key.isOnboardingCompleted) private var isOnboardingCompleted: Bool = false
 
     var body: some View {
@@ -22,7 +21,7 @@ struct ContentView: View {
 
     @ViewBuilder
     private var tabView: some View {
-        TabView(selectedTab: $selectedTab)
+        TabView()
     }
 
     @ViewBuilder
