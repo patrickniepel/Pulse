@@ -15,5 +15,11 @@ extension String {
         static let onboardingNoAdsText = LocalizedStringKey(stringLiteral: "onboarding_no_ads_text")
         static let onboardingNoAccountText = LocalizedStringKey(stringLiteral: "onboarding_no_account_text")
         static let onboardingNoSubscriptionsText = LocalizedStringKey(stringLiteral: "onboarding_no_subscriptions_text")
+
+        static let settingsTitle = LocalizedStringKey(stringLiteral: "settings_title")
+        static let settingsShareTitle = LocalizedStringKey(stringLiteral: "settings_share_title")
+        static let settingsContactTitle = LocalizedStringKey(stringLiteral: "settings_contact_title")
+        static let settingsRateTitle = LocalizedStringKey(stringLiteral: "settings_rate_title")
+        static let settingsAppVersionTitle = LocalizedStringKey(stringLiteral: "settings_app_version_title")
     }
 }

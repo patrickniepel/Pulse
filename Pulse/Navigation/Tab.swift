@@ -17,10 +17,14 @@ enum Tab: Identifiable, CaseIterable {
     var destination: some View {
         switch self {
         case .timer:
-            TimerView()
+            NavigationStack {
+                TimerView()
+            }
 
         case .settings:
-            SettingsView()
+            NavigationStack {
+                SettingsView()
+            }
         }
     }
 
